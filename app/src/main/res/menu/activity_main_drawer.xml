@@ -27,12 +27,12 @@
         <menu>
             <item
                 android:id="@+id/nav_share"
-                android:icon="?android:attr/actionModeFindDrawable"
+                android:icon="?android:attr/actionModePasteDrawable"
                 android:title="Conociminetos" />
             <item
                 android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Enviar Mensaje" />
+                android:icon="?android:attr/actionModePasteDrawable"
+                android:title="Experiencia Laboral" />
         </menu>
     </item>
 
