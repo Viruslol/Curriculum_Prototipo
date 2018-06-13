@@ -9,14 +9,16 @@
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/borde">
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="171dp"
-            android:layout_height="31dp"
+            android:layout_width="236dp"
+            android:layout_height="47dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
+            android:background="@drawable/subrayado"
             android:text="Datos Personales"
             android:textColor="@android:color/background_dark"
             android:textSize="18sp"
@@ -76,25 +78,25 @@
             android:id="@+id/textView36"
             android:layout_width="45dp"
             android:layout_height="21dp"
-            android:layout_marginStart="36dp"
-            android:layout_marginTop="292dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="8dp"
             android:text="Soltero"
             android:textColor="@android:color/background_dark"
             android:textSize="10sp"
             app:layout_constraintStart_toEndOf="@+id/textView41"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toBottomOf="@+id/textView37" />
 
         <TextView
             android:id="@+id/textView37"
             android:layout_width="79dp"
             android:layout_height="17dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="232dp"
             android:text="0956775696"
             android:textColor="@android:color/background_dark"
             android:textSize="10sp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView34" />
+            app:layout_constraintStart_toEndOf="@+id/textView34"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView38"
@@ -142,7 +144,7 @@
             android:textColor="@android:color/background_dark"
             android:textSize="12sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView37" />
+            app:layout_constraintTop_toBottomOf="@+id/textView34" />
 
         <TextView
             android:id="@+id/textView42"
@@ -170,11 +172,12 @@
 
         <ImageView
             android:id="@+id/image_p"
-            android:layout_width="71dp"
-            android:layout_height="80dp"
+            android:layout_width="67dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="16dp"
             android:src="@mipmap/prueba"
-            tools:layout_editor_absoluteX="309dp"
-            tools:layout_editor_absoluteY="4dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/Cambiar_F"
